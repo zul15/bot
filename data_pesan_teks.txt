@@ -1,0 +1,40 @@
+Ini adalah file kosakata bot
+bot akan memuat teks yang mengandung kosakata dan mengembalikan kalimat balasan
+
+# Petunjuk
+* Simbol (=) digunakan untuk memisahkan kalimat input dan output
+* Gunakan simbol (|) untuk memisahkan kalimat input, untuk beberapa variasi kosakata
+^ Setiap kosakata harus diakhiri simbol (;) untuk memisahkan data kosakata
+* Kosakata yang panjang harus diposisikan di awal
+
+⛔ Jangan ubah/hapus bagian petunjuk ini!
+  (bagian petunjuk ini adalah bagian dari array, jika berubah' fungsinya bisa error)
+;
+
+^kapan distribusi min | ^distribusi kapan min | ^kapan distribusi | ^distribusi kapan = antara maret atau april;
+^berapa total suplay chainge min | ^suplay chainge berapa| ^total suplay chainge kabar min | ^suplay chainge berapa min = suplay chainge tergantung berapa banyak user yang bergabung lalu di X 10 ;
+^bagaimana cara penarikan chainge | ^bagaimanan cara penarikan chainge min | ^gimana cara wd min | ^gimana cara wd | ^gimana cara narik nya | ^bagaimana cara penarikan kan nya min = wd-wd mulu, ,garap dulu yang banyak wd nya ntar kalo dah ada harganya;
+^nuyul | ^tuyul | ^nuyulin = husstt,ntar ada cepu;
+^udah punya pacar blum teh      = aing mah jomlo kasep;
+^apa kabar teh | ^bagaimana kabarmu teh = saya baik-baik saja;
+^apa kabar teh$                 = baik;
+
+halo $                       = Halo %nama;
+hai $                        = Hai %nama ganteng;
+halo teh$                           = Hai juga kasep;
+^hai teh $                           = Hai juga ganteng;
+^teh$                           = ada yang bisa saya bantu sayang !!?;
+^teh udah makan             = udah dong sayang, kamu?;
+^makan apa                = ihhh kepo deh;
+^lagi apa teh                 = lagi ngobrol sama kamu sayangg ;
+^sekarang jam berapa teh$ |
+^jam berapa sekarang teh$ |
+^ini jam berapa teh$ |
+^jam berapa ini teh$                = Sekarang jam %jam : %menit;
+
+^sekarang tanggal berapa teh$ |
+^tanggal berapa sekarang teh$ |
+^ini tanggal berapa teh$ |
+^tanggal berapa ini teh$            = Sekarang tanggal %tanggal;
+
+^p$ | ^ping$ | ^woy$ | ^hii      = iya sayang;
